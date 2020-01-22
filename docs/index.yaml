@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  fluent-bit:
+  - apiVersion: v1
+    appVersion: 1.3.5
+    created: "2020-01-22T13:13:27.3022414Z"
+    description: Fast and Lightweight Log/Data Forwarder for Linux, BSD and OSX
+    digest: 8a833ff85aae95fd7dff8e17a0acd9b5d2dcd1ed958a435a62d001403e127ca2
+    home: https://fluentbit.io
+    icon: https://fluentbit.io/assets/img/logo1-default.png
+    keywords:
+    - logging
+    - monitoring
+    - fluent
+    - fluentd
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: eduardo@treasure-data.com
+      name: edsiper
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    name: fluent-bit
+    sources:
+    - https://fluentbit.io
+    urls:
+    - https://circleci.github.io/helm-charts/fluent-bit-2.8.8.tgz
+    version: 2.8.8
+generated: "2020-01-22T13:13:27.3006377Z"
